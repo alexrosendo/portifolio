@@ -1,0 +1,234 @@
+/*fontes personalizadas*/
+@font-face {
+    font-family: 'Renogare-Regular';
+    src: url(fonts/Renogare-Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*seletor universal*/
+*{
+    padding: 0;
+    z-index: 1;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #080707;
+    font-family: 'Renogare-Regular', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Inicio da formatação do header*/
+header{
+    background-color: #1D2B5A;
+    display: flex;
+    padding: 0 4vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header h1{
+    font-size: 4vh;
+    color: #fff;
+}
+
+#menu-topo{
+    width: 50vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5vh;
+}
+
+.botao-menu-topo{
+    padding: 1.3vh;
+    color: #fff;
+}
+
+.botao-menu-topo:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 1.4vh;
+    font-size: 3vh;
+    transition: 0.15s;
+
+}
+
+#botao-area-cliente{
+    background-color: #f99232;
+    color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+    padding: 1.3vh 1.5vw;
+    border-radius: 0.5vh;
+}
+
+#botao-area-cliente:hover{
+    background-color: #095acf;
+    color: #fff;
+}
+
+/*
+Inicio da formatação do conteúdo
+
+- Aonde se começa com CO é a abreviação de "ConteudoOne"
+*/
+
+/*Inicio da formatação do conteúdo One*/
+#conteudo{
+    margin-top: 6vh;
+}
+
+/*Inicio da primeira tela*/
+
+#tela-one{
+    background: #1D2B5A;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 35vw;
+}
+
+#one-limitadora{
+    display: flex;
+    width: 100%;
+}
+
+#img-one{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    z-index: 1;
+}
+#img-two{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    z-index: 2;
+}
+
+#img-three{
+    width: 100%;
+    min-height: 35.2vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    z-index: 3;
+    position: absolute;
+}
+
+.img-concept{
+    width: 100%;
+}
+
+#text-content{
+    width: 100%;
+    height: 35vw;
+    display: flex;
+    position: relative;
+    top: -32vw;
+    z-index: 10000;
+}
+
+#text-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-title h1, p{
+    height: 40%;
+    text-align: center;
+    z-index: 4;
+}
+
+#text-title h1{
+    width: 60%;
+    line-height: 3vw;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2.1vw;
+    margin-bottom: -20vw;
+}
+
+#text-title p{
+    width: 50%;
+    display: flex;
+    margin-top: 3vw;
+    align-items: flex-start;
+    line-height: 2em;
+    color: #fff;
+    font-size: 1vw;
+}
+
+#text-title h1 span{
+    color: #fff;
+    background: #ff154f;
+}
+
+/*Formatação da segunda tela*/
+#tela-two{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#tw-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tw-titulo h2{
+    height: 30vh;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D2B5A;
+}
+
+
+#tw-caixa-area{
+    width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.atuacao{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.atuacao-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atuacao-img img{
+    display: flex;
+    width: 70%;
+    height: 90%;
+}
+
+.atuacao-titulo h4{
+    font-size: 2vw;
+    color: #ff154f;
+}
