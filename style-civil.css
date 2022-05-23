@@ -100,7 +100,7 @@ Inicio da formatação do conteúdo
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/imgs/civil/bg-dot.png);
+    background: url(imgs/civil/bg-dot.png);
 }
 
 #co-img img{
